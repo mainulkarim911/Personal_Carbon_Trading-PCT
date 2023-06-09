@@ -1,0 +1,50 @@
+.bodybg{
+    -fx-background-image: url("/pct/Nature.jpg");
+    -fx-background-size: 100% 100%;
+}
+.bt1{
+    -fx-background: inherit;
+    -fx-text-fill: white;
+}
+.bt2{
+    -fx-background: inherit;
+    -fx-text-fill: black;
+}
+.bt3{
+    -fx-background: inherit;   
+}
+.bt4{
+    -fx-background: inherit;
+    -fx-text-fill: white;
+}
+.bt4:hover {
+    -fx-text-fill: black;
+}
+.bt3:hover {
+    -fx-background-color: #9DD50E;
+    -glyph-size: 45;
+}
+.bt3:hover.glyph-icon{
+    -glyph-size: 45;   
+}
+
+.bt1:hover {
+    -fx-background-color: #9DD50E;
+    -fx-text-fill: black;
+}
+.bt2:hover{
+    -fx-background-color: #9DD50E;
+    -fx-text-fill: white;
+}
+.glyph-icon{
+    -fx-fill: white;
+}
+.bt3:hover .glyph-icon{
+    -glyph-size: 35;
+}
+.bt2:hover .glyph-icon{
+    -fx-fill: black;
+    -glyph-size: 80;
+}
+
+

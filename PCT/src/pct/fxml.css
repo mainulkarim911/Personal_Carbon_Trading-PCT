@@ -1,0 +1,22 @@
+
+.bodybg{
+    -fx-background-image: url("/pct/Nature.jpg");
+    -fx-background-size: 100% 100%;
+}
+.bt3{
+    -fx-background: inherit;   
+}
+.bt3:hover {
+    -fx-background-color: #9DD50E;
+    -glyph-size: 45;
+}
+.bt3:hover.glyph-icon{
+    -glyph-size: 45;   
+}
+.bt3:hover .glyph-icon{
+    -glyph-size: 35;
+}
+.glyph-icon{
+    -fx-fill: black;
+}
+

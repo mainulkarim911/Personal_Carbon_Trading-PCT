@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" styleClass="bodybg" stylesheets="@MyCss5.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pct.FXMLDocumentController">
+   <children>
+      <TextField fx:id="t1" layoutX="425.0" layoutY="6.0" prefHeight="49.0" prefWidth="363.0" promptText="Search By Credit ( Example :  50 or 150" AnchorPane.leftAnchor="425.0" AnchorPane.rightAnchor="502.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button layoutX="778.0" layoutY="7.0" mnemonicParsing="false" onAction="#handleButtonAction11" prefHeight="47.0" prefWidth="52.0" styleClass="bt3" stylesheets="@fxml.css" AnchorPane.rightAnchor="450.0">
+         <graphic>
+            <FontAwesomeIconView glyphName="SEARCH" size="20" styleClass="glyph-icon" />
+         </graphic>
+      </Button>
+      <Button layoutX="949.0" layoutY="18.0" mnemonicParsing="false" onAction="#handleButtonAction4" styleClass="bt2" stylesheets="@MyCss5.css" text="POST YOUR AD" AnchorPane.rightAnchor="232.0" />
+      <Button layoutX="845.0" layoutY="18.0" mnemonicParsing="false" styleClass="bt2" stylesheets="@MyCss5.css" text="LANGUAGE" AnchorPane.rightAnchor="358.0" />
+      <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#handleButtonAction3" styleClass="bt1" stylesheets="@MyCss5.css" text="PERSONAL CARBON TRADING">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="HOME" size="25" />
+         </graphic>
+      </Button>
+      <MenuButton fx:id="b2" alignment="CENTER" layoutX="1074.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" styleClass="bt2" stylesheets="@MyCss5.css" AnchorPane.rightAnchor="14.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <items>
+            <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" styleClass="bt2" stylesheets="@MyCss5.css" text="Profile" />
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" styleClass="bt2" stylesheets="@MyCss5.css" text="My ads" />
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" styleClass="bt2" stylesheets="@MyCss5.css" text="Setting" />
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" styleClass="bt2" stylesheets="@MyCss5.css" text="Help" />
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" onAction="#handleButtonAction5" styleClass="bt2" stylesheets="@MyCss5.css" text="Log out" />
+               </graphic>
+            </MenuItem>
+         </items>
+      </MenuButton>
+      <Button contentDisplay="TOP" layoutX="1203.0" layoutY="328.0" mnemonicParsing="false" onAction="#handleButtonAction9" prefHeight="100.0" prefWidth="77.0" styleClass="bt2" stylesheets="@MyCss5.css" AnchorPane.bottomAnchor="292.0" AnchorPane.rightAnchor="0.0">
+         <graphic>
+            <FontAwesomeIconView glyphName="ARROW_RIGHT" size="70" />
+         </graphic>
+      </Button>
+      <Button contentDisplay="TOP" layoutY="242.0" mnemonicParsing="false" onAction="#handleButtonAction10" prefHeight="100.0" prefWidth="77.0" styleClass="bt2" stylesheets="@MyCss5.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="242.0">
+         <graphic>
+            <FontAwesomeIconView glyphName="ARROW_LEFT" size="70" />
+         </graphic>
+      </Button>
+      <AnchorPane layoutX="384.0" layoutY="497.0" prefHeight="60.0" prefWidth="512.0">
+         <children>
+            <Button layoutX="14.0" layoutY="5.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="110.0" styleClass="bt1" stylesheets="@MyCss5.css" text="Donate">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="367.0" layoutY="5.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="131.0" styleClass="bt1" stylesheets="@MyCss5.css" text="Buy Credit">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="387.0" layoutY="135.0" prefHeight="335.0" prefWidth="512.0" styleClass="bt1" stylesheets="@MyCss5.css">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleButtonAction6" prefHeight="341.0" prefWidth="512.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="l2" alignment="CENTER" prefHeight="38.0" prefWidth="498.0" text="Credit">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="iv2" fitHeight="316.0" fitWidth="496.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </VBox>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="905.0" layoutY="248.0" prefHeight="230.0" prefWidth="311.0" styleClass="bt1" stylesheets="@MyCss5.css">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleButtonAction7" prefHeight="210.0" prefWidth="240.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="l3" alignment="CENTER" contentDisplay="RIGHT" prefHeight="41.0" prefWidth="83.0" text="Credit">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="iv3" fitHeight="193.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </VBox>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="68.0" layoutY="160.0" prefHeight="230.0" prefWidth="311.0" styleClass="bt1" stylesheets="@MyCss5.css">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleButtonAction8" prefHeight="210.0" prefWidth="240.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="l4" alignment="CENTER" contentDisplay="RIGHT" prefHeight="32.0" prefWidth="97.0" text="Credit">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="iv1" fitHeight="193.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </VBox>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <VBox alignment="CENTER" layoutX="929.0" layoutY="585.0" prefHeight="154.0" prefWidth="160.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="CUSTOMAR CARE" wrappingWidth="159.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Customer Info">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Help Center">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="How to Buy/Sell">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Returns &amp; Refunds">
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutY="569.0" prefHeight="170.0" prefWidth="276.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="PERSONAL CARBON TRADING" wrappingWidth="270.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="64.0" styleClass="bt1" stylesheets="@MyCss5.css" text="About us" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="122.0" styleClass="bt1" stylesheets="@MyCss5.css" text="Terms &amp; Conditions" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="88.0" styleClass="bt1" stylesheets="@MyCss5.css" text="Privacy Policy" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" styleClass="bt1" stylesheets="@MyCss5.css" text="Legal Enqury Guide" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="286.0" layoutY="576.0" prefHeight="154.0" prefWidth="131.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="MY ACCOUNT" wrappingWidth="128.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Security Policy">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Address">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Question &amp; Answer">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Contact us">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="1104.0" layoutY="575.0" prefHeight="164.0" prefWidth="186.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT US" wrappingWidth="120.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TextArea editable="false" prefHeight="81.0" prefWidth="186.0" text="Hose No: 841, Chowdhury Vila,&#10;College Para, Brahmanbaria,&#10;Chittagong, Bangladesh&#10;" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" styleClass="bt1" stylesheets="@MyCss5.css" text="+8801918270405">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="8.0" prefWidth="168.0" styleClass="bt1" stylesheets="@MyCss5.css" text="mainulkarim911@gmail.com">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="498.0" layoutY="613.0" prefHeight="63.0" prefWidth="295.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="FOLLOWS US" wrappingWidth="119.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <HBox alignment="CENTER" prefHeight="62.0" prefWidth="289.0">
+               <children>
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Facebook" />
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Youtube" />
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Tiwtter" />
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Instagram" />
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Blog" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="498.0" layoutY="676.0" prefHeight="63.0" prefWidth="295.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYMENT METHOD" wrappingWidth="177.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <HBox alignment="CENTER" prefHeight="62.0" prefWidth="289.0">
+               <children>
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Visa" />
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="American Express" />
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Master Card" />
+                  <Button mnemonicParsing="false" styleClass="bt1" stylesheets="@MyCss5.css" text="Bkash" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

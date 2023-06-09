@@ -1,0 +1,13 @@
+
+
+.bodybg{
+    -fx-background-image: url("/pct/Photos/spider.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.works li a {
+    
+    Background-image: url("C:\Users\Mainul Karim\Downloads\Mainul.jpg");
+    -fx-background-size: 100% 100%;
+
+}
